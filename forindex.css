@@ -1,0 +1,10 @@
+/* place holder for actual picture */
+body{
+    background-image: url("https://i.pinimg.com/originals/00/41/40/004140673550b922a44a6e1d04bebd92.jpg");
+    background-color: #ec06e1b0;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+}

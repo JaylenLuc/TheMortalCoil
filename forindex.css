@@ -1,50 +1,52 @@
-/* place holder for actual picture */
+/* place holder for actual picture "https://pbs.twimg.com/profile_banners/1135061570961076225/1651524644/1500x500"*/
+
 body{
-    background-image: url("https://i.pinimg.com/originals/00/41/40/004140673550b922a44a6e1d04bebd92.jpg");
+    background-image: url("https://pbs.twimg.com/profile_banners/1135061570961076225/1651524644/1500x500");
     background-color: #C1E1C1;
     background-repeat: no-repeat;
-    min-height: 100vh;
+    min-height: 135vh;
     padding: 0;
-    background-size: cover;
-    background-position: center;
+    background-size:contain;
+    min-width: 100%;
+    background-attachment: fixed;
+
     margin : 0;
     
 }
-
-
+/*create img element and place it in the the top but not in the body or try with the body
+/* make alex drawing background scroll over the acting header in this case the body */
+/* "https://i.pinimg.com/originals/00/41/40/004140673550b922a44a6e1d04bebd92.jpg"*/
   .header{
-    position:fixed;
+    position:relative;
     left: 0;
     top: 0;
     width: 100%;
-    background-image: url("http://webmadewell.com/wp-content/uploads/2018/01/img-bg-sample-parallax-header.jpg");
-    background-position: center;
+    height: 30vh;
+    background-image: url("https://i.pinimg.com/originals/00/41/40/004140673550b922a44a6e1d04bebd92.jpg");
+    background-position: center, bottom;
     background-size: cover;
     background-repeat: no-repeat;
+    z-index: inherit;
  
   }
-  .sample-header::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: MidnightBlue;
-    opacity: 0.3;
-  }
+
   .info {
     position: relative;
     padding: 15% 0 10%;
     max-width: 640px;
     margin-left: auto;
     margin-right: auto;
-    color: white;
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
-    font-family: "Montserrat", sans-serif;
+    color: #C1E1C1;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+    font-family:cursive;
   }
 
   .header a{
     color:#eee
   }
 
+  h1{
+    
+    margin : 0;
+  }
+  

@@ -7,10 +7,9 @@ body{
     min-height: 135vh;
     padding: 0;
     background-size:contain;
-    min-width: 100%;
+    width: 100%;
     background-attachment: fixed;
-
-    margin : 0;
+    background-size: 100%;
     
 }
 /*create img element and place it in the the top but not in the body or try with the body
@@ -28,6 +27,18 @@ body{
     background-repeat: no-repeat;
     z-index: inherit;
  
+  }
+  #alex_img {
+    background-image: url("https://i.pinimg.com/originals/00/41/40/004140673550b922a44a6e1d04bebd92.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    min-height: 115vh;
+    background-size:contain;
+    resize: none;
+    background-size: 100%;
+    
+    
+
   }
 
   .info {

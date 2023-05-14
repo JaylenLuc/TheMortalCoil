@@ -1,17 +1,19 @@
 /* place holder for actual picture "https://pbs.twimg.com/profile_banners/1135061570961076225/1651524644/1500x500"*/
 
+
 body{
-    background-image: url("https://pbs.twimg.com/profile_banners/1135061570961076225/1651524644/1500x500");
-    background-color: #C1E1C1;
-    background-repeat: no-repeat;
-    min-height: 135vh;
-    padding: 0;
-    background-size:contain;
-    width: 100%;
-    background-attachment: fixed;
-    background-size: 100%;
-    
+  background-image: url("Untitled-Artwork.JPEG");
+  background-color: #C1E1C1;
+  background-repeat: no-repeat;
+  
+  padding: 0;
+  background-size:contain;
+  width: 100%;
+  background-attachment: fixed;
+  background-size: 100%;
+  
 }
+/*C:\Users\Jaylen\Downloads\b6ab0a6e643e3cd4202f1ac71c511913.jpg
 /*create img element and place it in the the top but not in the body or try with the body
 /* make alex drawing background scroll over the acting header in this case the body */
 /* "https://i.pinimg.com/originals/00/41/40/004140673550b922a44a6e1d04bebd92.jpg"*/
@@ -42,9 +44,7 @@ body{
   }
 
   .info {
-    position: relative;
-    padding: 15% 0 10%;
-    max-width: 640px;
+    
     margin-left: auto;
     margin-right: auto;
     color: #C1E1C1;
@@ -60,4 +60,19 @@ body{
     
     margin : 0;
   }
+  * {
+    box-sizing: border-box;
+  }
+  /* @media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+  } */
+  .row {
+    display: flex;
+  }
   
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }

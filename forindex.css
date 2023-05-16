@@ -5,12 +5,12 @@ body{
   background-image: url("Untitled-Artwork.JPEG");
   background-color: #C1E1C1;
   background-repeat: no-repeat;
-  
-  padding: 0;
-  background-size:contain;
-  width: 100%;
   background-attachment: fixed;
-  background-size: 100%;
+  
+
+  
+  background-size: cover;
+  
   
 }
 /*C:\Users\Jaylen\Downloads\b6ab0a6e643e3cd4202f1ac71c511913.jpg

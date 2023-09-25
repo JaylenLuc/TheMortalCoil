@@ -19,11 +19,7 @@ body{
   img {
     border: 5px solid #C1E1C1;
   }
-  /* @media screen and (max-width: 500px) {
-    .column {
-      width: 100%;
-    }
-  } */
+
   .row {
     display: flex;
   }
@@ -31,4 +27,12 @@ body{
   .column {
     flex: 33.33%;
     padding: 0px;
+  }
+
+  .bloggerdaious {
+    border: 5px solid #C1E1C1;
+    background-color: beige;
+   
+    align-items: center;
+    margin: 35px;
   }
